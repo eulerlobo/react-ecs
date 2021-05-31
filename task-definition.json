@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "react-ecs",
-      "image": "007696430067.dkr.ecr.sa-east-1.amazonaws.com/react-ecs",
+      "image": "007696430067.dkr.ecr.sa-east-1.amazonaws.com/react-ecs:latest",
       "cpu": 1,
       "memory": 128,
       "portMappings": [
