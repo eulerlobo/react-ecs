@@ -64,7 +64,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:sa-east-1:007696430067:task-definition/react-ecs-2-definition:2",
+  "taskDefinitionArn": "arn:aws:ecs:sa-east-1:007696430067:task-definition/react-ecs-2-definition:4",
   "family": "react-ecs-2-definition",
   "requiresAttributes": [
     {
@@ -92,7 +92,7 @@
   ],
   "networkMode": null,
   "cpu": "512",
-  "revision": 2,
+  "revision": 4,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
