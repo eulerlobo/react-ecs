@@ -72,11 +72,11 @@ jobs:
 #        task-definition: task-definition.json
 #        container-name: react-ecs-2-container
 #        image: ${{ steps.build-image.outputs.image }}
-
-    - name: Deploy Amazon ECS task definition
-      uses: aws-actions/amazon-ecs-deploy-task-definition@v1
-      with:
-        task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: react-ecs-2-service
-        cluster: react-ecs-cluster
-        wait-for-service-stability: true
+#
+#    - name: Deploy Amazon ECS task definition
+#      uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+#      with:
+#        task-definition: ${{ steps.task-def.outputs.task-definition }}
+#        service: react-ecs-2-service
+#        cluster: react-ecs-cluster
+#        wait-for-service-stability: true
